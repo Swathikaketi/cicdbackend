@@ -8,7 +8,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/backend/customers")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:5174"})
+@CrossOrigin(origins = {"http://localhost:9090/grossery-app", "http://localhost:9090/grossery-app"})
 public class CustomerController {
 
     @Autowired
