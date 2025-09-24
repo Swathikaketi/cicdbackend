@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 @RestController
-@RequestMapping("/backend/customers")
+@RequestMapping("/customers")
 @CrossOrigin(origins = {"http://localhost:9090/grossery-app", "http://localhost:9090/grossery-app"})
 public class CustomerController {
 
